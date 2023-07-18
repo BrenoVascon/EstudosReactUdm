@@ -1,3 +1,5 @@
+
+import React from 'react';
 import './styles.css';
 export const Button = ({ text, onClick, disabled }) => (
     <button
@@ -8,3 +10,4 @@ export const Button = ({ text, onClick, disabled }) => (
       {text}
     </button>
   );
+
